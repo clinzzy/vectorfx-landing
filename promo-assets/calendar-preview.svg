@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e17"/>
+      <stop offset="100%" style="stop-color:#0f1419"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" rx="16" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="798" height="448" rx="15" fill="none" stroke="#2a3545" stroke-width="1"/>
+  
+  <!-- Header -->
+  <text x="40" y="50" font-family="system-ui, sans-serif" font-size="24" font-weight="600" fill="#e8edf5">Economic Calendar</text>
+  <text x="40" y="72" font-family="system-ui, sans-serif" font-size="12" fill="#5a6577">High-impact events affecting currency markets</text>
+  
+  <!-- Date Navigation -->
+  <rect x="550" y="30" width="32" height="32" rx="6" fill="#151c26" stroke="#2a3545"/>
+  <text x="566" y="52" font-family="system-ui, sans-serif" font-size="16" fill="#8b95a5" text-anchor="middle">&lt;</text>
+  <text x="660" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#e8edf5" text-anchor="middle">December 25, 2025</text>
+  <rect x="750" y="30" width="32" height="32" rx="6" fill="#151c26" stroke="#2a3545"/>
+  <text x="766" y="52" font-family="system-ui, sans-serif" font-size="16" fill="#8b95a5" text-anchor="middle">&gt;</text>
+  
+  <!-- Calendar Panel -->
+  <rect x="40" y="90" width="720" height="345" rx="12" fill="#1a2332" stroke="#2a3545" stroke-width="1"/>
+  
+  <!-- Filter Tabs -->
+  <rect x="56" y="108" width="45" height="28" rx="6" fill="#00d4aa"/>
+  <text x="78" y="127" font-family="system-ui, sans-serif" font-size="11" fill="#0a0e17" text-anchor="middle">All</text>
+  <rect x="108" y="108" width="80" height="28" rx="6" fill="#151c26" stroke="#2a3545"/>
+  <text x="148" y="127" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5" text-anchor="middle">High Impact</text>
+  <rect x="195" y="108" width="60" height="28" rx="6" fill="#151c26" stroke="#2a3545"/>
+  <text x="225" y="127" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5" text-anchor="middle">Medium</text>
+  <rect x="262" y="108" width="45" height="28" rx="6" fill="#151c26" stroke="#2a3545"/>
+  <text x="284" y="127" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5" text-anchor="middle">Low</text>
+  
+  <!-- Column Headers -->
+  <text x="56" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577" letter-spacing="0.5">TIME</text>
+  <text x="120" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577" letter-spacing="0.5">CUR</text>
+  <text x="170" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577" letter-spacing="0.5">IMPACT</text>
+  <text x="240" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577" letter-spacing="0.5">EVENT</text>
+  <text x="580" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577" letter-spacing="0.5">FORECAST</text>
+  <text x="680" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577" letter-spacing="0.5">ACTUAL</text>
+  
+  <!-- Event Row 1 -->
+  <line x1="56" y1="210" x2="744" y2="210" stroke="#2a3545" stroke-width="1"/>
+  <text x="56" y="200" font-family="monospace" font-size="12" fill="#8b95a5">08:30</text>
+  <text x="120" y="200" font-family="monospace" font-size="12" font-weight="600" fill="#e8edf5">USD</text>
+  <circle cx="177" cy="196" r="4" fill="#ff5252"/>
+  <circle cx="188" cy="196" r="4" fill="#ff5252"/>
+  <circle cx="199" cy="196" r="4" fill="#ff5252"/>
+  <text x="240" y="195" font-family="system-ui, sans-serif" font-size="12" fill="#e8edf5">Core PCE Price Index m/m</text>
+  <text x="240" y="208" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">Previous: 0.3%</text>
+  <text x="600" y="200" font-family="monospace" font-size="12" fill="#8b95a5" text-anchor="middle">0.3%</text>
+  <text x="700" y="200" font-family="monospace" font-size="12" fill="#00e676" text-anchor="middle">0.2%</text>
+  
+  <!-- Event Row 2 -->
+  <line x1="56" y1="255" x2="744" y2="255" stroke="#2a3545" stroke-width="1"/>
+  <text x="56" y="245" font-family="monospace" font-size="12" fill="#8b95a5">08:30</text>
+  <text x="120" y="245" font-family="monospace" font-size="12" font-weight="600" fill="#e8edf5">USD</text>
+  <circle cx="177" cy="241" r="4" fill="#ffc107"/>
+  <circle cx="188" cy="241" r="4" fill="#ffc107"/>
+  <circle cx="199" cy="241" r="4" fill="#3d4654"/>
+  <text x="240" y="240" font-family="system-ui, sans-serif" font-size="12" fill="#e8edf5">Personal Spending m/m</text>
+  <text x="240" y="253" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">Previous: 0.2%</text>
+  <text x="600" y="245" font-family="monospace" font-size="12" fill="#8b95a5" text-anchor="middle">0.4%</text>
+  <text x="700" y="245" font-family="monospace" font-size="12" fill="#00e676" text-anchor="middle">0.5%</text>
+  
+  <!-- Event Row 3 -->
+  <line x1="56" y1="300" x2="744" y2="300" stroke="#2a3545" stroke-width="1"/>
+  <text x="56" y="290" font-family="monospace" font-size="12" fill="#8b95a5">13:00</text>
+  <text x="120" y="290" font-family="monospace" font-size="12" font-weight="600" fill="#e8edf5">EUR</text>
+  <circle cx="177" cy="286" r="4" fill="#ff5252"/>
+  <circle cx="188" cy="286" r="4" fill="#ff5252"/>
+  <circle cx="199" cy="286" r="4" fill="#ff5252"/>
+  <text x="240" y="285" font-family="system-ui, sans-serif" font-size="12" fill="#e8edf5">German CPI m/m</text>
+  <text x="240" y="298" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">Previous: 0.1%</text>
+  <text x="600" y="290" font-family="monospace" font-size="12" fill="#8b95a5" text-anchor="middle">0.2%</text>
+  <text x="700" y="290" font-family="monospace" font-size="12" fill="#5a6577" text-anchor="middle">-</text>
+  
+  <!-- Event Row 4 -->
+  <line x1="56" y1="345" x2="744" y2="345" stroke="#2a3545" stroke-width="1"/>
+  <text x="56" y="335" font-family="monospace" font-size="12" fill="#8b95a5">14:00</text>
+  <text x="120" y="335" font-family="monospace" font-size="12" font-weight="600" fill="#e8edf5">GBP</text>
+  <circle cx="177" cy="331" r="4" fill="#ff5252"/>
+  <circle cx="188" cy="331" r="4" fill="#ff5252"/>
+  <circle cx="199" cy="331" r="4" fill="#ff5252"/>
+  <text x="240" y="330" font-family="system-ui, sans-serif" font-size="12" fill="#e8edf5">BOE Gov Bailey Speaks</text>
+  <text x="240" y="343" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">Speech at Central Bank Forum</text>
+  <text x="600" y="335" font-family="monospace" font-size="12" fill="#5a6577" text-anchor="middle">-</text>
+  <text x="700" y="335" font-family="monospace" font-size="12" fill="#5a6577" text-anchor="middle">-</text>
+  
+  <!-- Event Row 5 -->
+  <line x1="56" y1="390" x2="744" y2="390" stroke="#2a3545" stroke-width="1"/>
+  <text x="56" y="380" font-family="monospace" font-size="12" fill="#8b95a5">15:30</text>
+  <text x="120" y="380" font-family="monospace" font-size="12" font-weight="600" fill="#e8edf5">CAD</text>
+  <circle cx="177" cy="376" r="4" fill="#ff5252"/>
+  <circle cx="188" cy="376" r="4" fill="#ff5252"/>
+  <circle cx="199" cy="376" r="4" fill="#ff5252"/>
+  <text x="240" y="375" font-family="system-ui, sans-serif" font-size="12" fill="#e8edf5">GDP m/m</text>
+  <text x="240" y="388" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">Previous: -0.1%</text>
+  <text x="600" y="380" font-family="monospace" font-size="12" fill="#8b95a5" text-anchor="middle">0.1%</text>
+  <text x="700" y="380" font-family="monospace" font-size="12" fill="#5a6577" text-anchor="middle">-</text>
+  
+  <!-- Event Row 6 -->
+  <text x="56" y="420" font-family="monospace" font-size="12" fill="#8b95a5">19:00</text>
+  <text x="120" y="420" font-family="monospace" font-size="12" font-weight="600" fill="#e8edf5">USD</text>
+  <circle cx="177" cy="416" r="4" fill="#ffc107"/>
+  <circle cx="188" cy="416" r="4" fill="#ffc107"/>
+  <circle cx="199" cy="416" r="4" fill="#3d4654"/>
+  <text x="240" y="415" font-family="system-ui, sans-serif" font-size="12" fill="#e8edf5">FOMC Member Williams Speaks</text>
+  <text x="240" y="428" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">Federal Reserve Commentary</text>
+  <text x="600" y="420" font-family="monospace" font-size="12" fill="#5a6577" text-anchor="middle">-</text>
+  <text x="700" y="420" font-family="monospace" font-size="12" fill="#5a6577" text-anchor="middle">-</text>
+</svg>
+

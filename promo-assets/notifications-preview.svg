@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1419"/>
+      <stop offset="100%" style="stop-color:#0a0e17"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#34d399"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="500" rx="16" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="398" height="498" rx="15" fill="none" stroke="#2a3545" stroke-width="1"/>
+  
+  <!-- Header -->
+  <text x="24" y="40" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#e8edf5">Notifications</text>
+  <text x="376" y="40" font-family="system-ui, sans-serif" font-size="12" fill="#00d4aa" text-anchor="end">Clear All</text>
+  
+  <line x1="24" y1="60" x2="376" y2="60" stroke="#2a3545" stroke-width="1"/>
+  
+  <!-- Notification 1 - New Signal -->
+  <rect x="24" y="75" width="352" height="80" rx="10" fill="#151c26"/>
+  <rect x="40" y="91" width="40" height="40" rx="10" fill="url(#accentGrad)"/>
+  <path d="M60 103 L60 119 M55 111 L65 111" stroke="#0a0e17" stroke-width="2" stroke-linecap="round"/>
+  <text x="95" y="105" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#e8edf5">New Signal: EUR/USD BUY</text>
+  <text x="95" y="125" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5">Entry at 1.0892 with 2.2:1 R:R ratio</text>
+  <text x="95" y="143" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">2 hours ago</text>
+  
+  <!-- Notification 2 - Target Hit -->
+  <rect x="24" y="165" width="352" height="80" rx="10" fill="#151c26"/>
+  <rect x="40" y="181" width="40" height="40" rx="10" fill="#00e676"/>
+  <path d="M52 201 L58 207 L70 195" stroke="#0a0e17" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="95" y="195" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#e8edf5">Target Hit: EUR/GBP</text>
+  <text x="95" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5">Take profit reached! +45 pips profit</text>
+  <text x="95" y="233" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">3 hours ago</text>
+  
+  <!-- Notification 3 - Break-Even -->
+  <rect x="24" y="255" width="352" height="80" rx="10" fill="#151c26"/>
+  <rect x="40" y="271" width="40" height="40" rx="10" fill="#ffc107"/>
+  <path d="M60 283 L60 295 M60 301 L60 303" stroke="#0a0e17" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="95" y="285" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#e8edf5">Break-Even Alert</text>
+  <text x="95" y="305" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5">GBP/JPY moved to break-even at 189.45</text>
+  <text x="95" y="323" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">45 min ago</text>
+  
+  <!-- Notification 4 - New Signal -->
+  <rect x="24" y="345" width="352" height="80" rx="10" fill="#151c26"/>
+  <rect x="40" y="361" width="40" height="40" rx="10" fill="url(#accentGrad)"/>
+  <path d="M60 373 L60 389 M55 381 L65 381" stroke="#0a0e17" stroke-width="2" stroke-linecap="round"/>
+  <text x="95" y="375" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#e8edf5">New Signal: NZD/USD BUY</text>
+  <text x="95" y="395" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5">Swing trade setup identified</text>
+  <text x="95" y="413" font-family="system-ui, sans-serif" font-size="10" fill="#5a6577">12 hours ago</text>
+  
+  <!-- Notification 5 - Stop Loss Warning -->
+  <rect x="24" y="435" width="352" height="55" rx="10" fill="#151c26"/>
+  <rect x="40" y="447" width="40" height="40" rx="10" fill="#ff5252"/>
+  <path d="M55 459 L65 469 M65 459 L55 469" stroke="#0a0e17" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="95" y="465" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#e8edf5">Stop Loss Warning</text>
+  <text x="95" y="483" font-family="system-ui, sans-serif" font-size="11" fill="#8b95a5">AUD/USD approaching stop loss level</text>
+</svg>
+
