@@ -1,11 +1,11 @@
 # robots.txt for Vector FX
-# https://vectorfx.com/
+# https://vectorfx.netlify.app/
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vectorfx.com/sitemap.xml
+Sitemap: https://vectorfx.netlify.app/sitemap.xml
 
 # Disallow admin or private areas (add as needed)
 # Disallow: /admin/
