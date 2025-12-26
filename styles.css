@@ -813,12 +813,9 @@ body {
 }
 
 .preview-caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 24px 32px;
-    background: linear-gradient(0deg, rgba(10, 10, 15, 0.95), rgba(10, 10, 15, 0.7), transparent);
+    padding: 20px 24px;
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
 }
 
 .caption-title {
@@ -826,7 +823,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .caption-desc {
@@ -837,7 +834,7 @@ body {
 
 .preview-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
@@ -862,12 +859,9 @@ body {
 }
 
 .preview-label {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     padding: 16px 20px;
-    background: linear-gradient(0deg, rgba(10, 10, 15, 0.95), transparent);
+    background: var(--bg-card);
+    border-top: 1px solid var(--border);
 }
 
 .label-title {
@@ -875,7 +869,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 
 .label-desc {
@@ -1481,6 +1475,10 @@ body {
         grid-template-columns: 1fr;
     }
     
+    .preview-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
     .difference-comparison {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -1525,6 +1523,10 @@ body {
     
     .caption-title {
         font-size: 16px;
+    }
+    
+    .preview-label {
+        padding: 14px 16px;
     }
     
     .macro-insights-preview {
